@@ -17,4 +17,15 @@ int main()
   }
   while(n != -9999);
   int max = 0;
+  for (int i = 0; i < count; i++)
+  {
+    for (int j = i + 1; j < count; j++)
+    {
+      int p = array1[i] * array1[j];
+      if (p % 13 == 0 && p % 39 != 0 && p > max)
+      {
+         max = p;
+      }
+    }
+  }
 }
