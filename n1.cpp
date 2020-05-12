@@ -16,5 +16,5 @@ int main()
     }
   }
   while(n != -9999);
-    
+  int max = 0;
 }
