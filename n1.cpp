@@ -28,4 +28,13 @@ int main()
       }
     }
   }
+  if (max == 0)
+  {
+    cout << "Fail";
+  }
+  else
+  {
+    cout << max;
+  }
+  return 0;
 }
